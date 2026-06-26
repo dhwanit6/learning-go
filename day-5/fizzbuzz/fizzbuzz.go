@@ -12,5 +12,7 @@ func main() {
 		fmt.Print("Fizz\n")
 	} else if input%5 == 0 {
 		fmt.Print("Buzz\n")
+	} else {
+		fmt.Printf("%v is not divisible by neither 3 nor 5", input)
 	}
 }
